@@ -1,6 +1,5 @@
 .new-member{
   display: grid;
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 1em;
@@ -11,4 +10,29 @@
 }
 .email-input{
   grid-area: 1;
+}
+
+.member-container {
+  border: solid black 1px;  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  padding: 1em;
+}
+.member{
+  /* grid-area: 1; */
+  /* border: solid red 2px; */
+}
+.input-amount, .input-expense{
+  max-width: 12em;
+  padding: .3em;
+}
+.delete-expense{
+  color: red;
+  padding-left: 3em;
+}
+.more-expenses{
+ padding-left: 7em;
 }

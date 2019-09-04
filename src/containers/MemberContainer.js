@@ -1,14 +1,27 @@
 import React, { Component } from 'react';
+import MemberExpenses from '../components/Members/MemberExpenses'
 
 class MemberContainer extends Component {
     state = {
-        members = []
+        members: []
     }
     render(){
         return(
-            <>
-            your group members will display here
-            </>
+           <div className="member-container">
+             
+               <div className="member">
+                  <MemberExpenses />
+               </div>
+               <div className="member">
+               <MemberExpenses />
+               </div>
+               <div className="member">
+               <MemberExpenses /> 
+               
+               </div>
+             
+           </div>
         )
     }
 }
+export default MemberContainer;

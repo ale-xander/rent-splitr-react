@@ -1,23 +1,14 @@
 import React from 'react'
-import { Icon, Input, Label } from 'semantic-ui-react'
+import { Icon, Input, Label } from 'semantic-ui-react';
+import Expenses from '../Expenses/Expenses'
 
 const MemberExpenses = () => (
   <div className=''>
-    <Input icon className='input-expense' placeholder='Expense'>
-      <input />
-    </Input>
-    <Input
-      labelPosition='right'
-      type='text'
-      className='input-amount'
-      placeholder='Amount'
-    >
-      <Label basic>$</Label>
-      <input />
-    </Input>
-
+   
+    <Expenses />
+    
     <Icon.Group size='huge'>
-      <Icon className='more-items' name='addNewMember' />
+      <Icon className='more-expenses' name='addNewMember' />
       <Icon corner name='add' />
     </Icon.Group>
   </div>
