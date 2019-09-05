@@ -4,7 +4,7 @@ import Expenses from '../Expenses/Expenses'
 
 const MemberExpenses = () => (
   <div className=''>
-   
+     
     <Expenses />
     
     <Icon.Group size='huge'>

@@ -1,4 +1,4 @@
-.new-member{
+.new-member, .member-total{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -14,6 +14,7 @@
 
 .member-container {
   border: solid black 1px;  
+  height: 90vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
@@ -22,8 +23,8 @@
   padding: 1em;
 }
 .member{
-  /* grid-area: 1; */
-  /* border: solid red 2px; */
+  grid-area: 1;
+  border: solid red 2px;
 }
 .input-amount, .input-expense{
   max-width: 12em;
@@ -35,4 +36,7 @@
 }
 .more-expenses{
  padding-left: 7em;
+}
+.settle-up{
+  float: right
 }
