@@ -40,3 +40,14 @@
 .settle-up{
   float: right
 }
+.invoice-button-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+.balance-table{
+  max-width: 60em;
+}
+.balance-amount{
+  max-width: 3em;
+}

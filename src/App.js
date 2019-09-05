@@ -5,6 +5,7 @@ import UpdateGroup from './components/Group/UpdateGroup'
 import CreateMember from './components/Members/CreateMember'
 import MemberExpenses from './components/Members/MemberExpenses'
 import MemberContainer from './containers/MemberContainer'
+import MemberBalances from './components/Members/MemberBalances'
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
     {/* <UpdateGroup /> */}
     {/* <MemberExpenses /> */}
-    <MemberContainer />
+    {/* <MemberContainer /> */}
+    <MemberBalances />
     </div>
   );
 }
